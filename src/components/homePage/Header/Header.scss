@@ -1,0 +1,149 @@
+@import '../../global.scss';
+
+
+.header{
+    height: 75vh;
+    background-color: $background-color;
+    position: relative;
+    overflow: hidden;
+}
+.header__container{
+    height: 100%;
+    color: white;
+    @include flexMixin(center,center);
+    .header__textbox{
+        h1{
+            font-size: 110px;
+            font-weight:500;
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            font-size: 40px;
+            margin: 0;
+            padding: 0;
+            z-index: 3;
+        }
+    }
+   
+}
+.header__circle{
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    background-image: linear-gradient(#4EF9FE,#0696FF);
+    @include flexMixin(center,center);
+}
+.header__circleinside{
+    background-color:$background-color ;
+    height: 60%;
+    width: 60%;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+$timeAnimation: 8s;
+
+
+$height__cirle--1:40vw;
+$height__cirle--2:5vw;
+$height__cirle--3:16vw;
+$height__cirle--4:35vw;
+
+
+
+
+.header__circle--1{
+    bottom: -120%;
+    left: 5vw;
+    transform: translate(-50%,-50%) rotate(45deg);
+    animation: anim-1  $timeAnimation  infinite linear;
+}
+.header__circle--2{
+    top: 40%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    animation: anim-2  $timeAnimation  infinite linear;
+}
+.header__circle--3{
+    right: 14%;
+    bottom: -25%;
+    animation: anim-3 $timeAnimation   infinite linear;
+}
+.header__circle--4{
+    top: 2%;
+    right: -20%;
+    animation: anim-4 $timeAnimation   infinite linear;
+}
+
+@keyframes  anim-1 {
+    0%{
+        height: $height__cirle--1;
+        width: $height__cirle--1;
+        left: 5vw;
+    }
+    50%{  
+        height: $height__cirle--1 + .3vw;
+        width: $height__cirle--1 + .3vw;
+    }
+    100%{  
+        height: $height__cirle--1;
+        width: $height__cirle--1;
+        left: 5vw;
+    }
+}
+@keyframes  anim-2 {
+    0%{
+        height: $height__cirle--2;
+        width: $height__cirle--2;
+    }
+    50%{  
+        height: $height__cirle--2 + 1vw;
+        width: $height__cirle--2 + 1vw;
+    }
+    100%{  
+        height: $height__cirle--2;
+        width: $height__cirle--2;
+    }
+}
+@keyframes  anim-3 {
+    0%{
+        height: $height__cirle--3;
+        width: $height__cirle--3;
+    }
+    50%{  
+        height: $height__cirle--3 + 1vw;
+        width: $height__cirle--3 + 1vw;
+    }
+    100%{  
+        height: $height__cirle--3;
+        width: $height__cirle--3;
+    }
+}
+@keyframes  anim-4 {
+    0%{
+        height: $height__cirle--4;
+        width: $height__cirle--4;
+    }
+    50%{  
+        height: $height__cirle--4 + 1vw;
+        width: $height__cirle--4 + 1vw;
+    }
+    100%{  
+        height: $height__cirle--4;
+        width: $height__cirle--4;
+    }
+}
+@media(max-width:600px){
+    .header__container{
+        .header__textbox{
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 25px;
+            }
+        }
+       
+    }
+}
