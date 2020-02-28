@@ -50,3 +50,8 @@ ul{
 a{
     cursor: pointer;
 }
+
+.fadeIn{
+    opacity: 0;
+    transition: 3s;
+}

@@ -27,7 +27,6 @@
 .services__griditem{
     @include flexMixin(left,flex-start);
     flex-direction: column;
-    margin: 0 auto;
     img{
         height: 110px;
         width: auto;
@@ -68,6 +67,7 @@
     .services__griditem{
         @include flexMixin(center,center);
         width: 80%;
+        margin: 0 auto;
         p{
             width:100%;
             text-align: center;

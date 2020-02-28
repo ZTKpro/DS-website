@@ -19,7 +19,7 @@ class Offer extends React.Component{
 
     render() {
         return(
-            <div className="offer">
+            <div className="offer fadeIn">
 
                     <div className="g-container offer__containers">
 

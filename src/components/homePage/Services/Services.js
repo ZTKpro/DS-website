@@ -16,7 +16,7 @@ class Services extends React.Component{
 
     render() {
         return(
-            <div id="Services" className="services">
+            <div id="Services" className="services fadeIn">
                 <div className="g-container services__container">
                     <h2>Our Services</h2>
                     <div className="services__grid">

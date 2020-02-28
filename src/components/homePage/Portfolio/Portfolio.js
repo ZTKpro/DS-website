@@ -7,7 +7,7 @@ class Portfolio extends React.Component{
 
     render() {
         return(
-            <section id="Portfolio" className="portfolio">
+            <section id="Portfolio" className="portfolio fadeIn">
 
                 <Draggable
                     axis="x"
@@ -24,10 +24,10 @@ class Portfolio extends React.Component{
                     
                     <div className="portfolio__drag">
 
-                        <div className="portfolio__item portfolio__item--1"></div>
-                        <div className="portfolio__item portfolio__item--2"></div>
-                        <div className="portfolio__item portfolio__item--3"></div>
-                        <div className="portfolio__item portfolio__item--4"></div>
+                        <a href="https://edumat.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--1"></div></a>
+                        <a href="https://cryptobuffett.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--2"></div></a>
+                        <a href="https://hotelmenager.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--3"></div></a>
+                        <a href="https://bookseller.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--4"></div></a>
 
                     </div>
                 </Draggable>

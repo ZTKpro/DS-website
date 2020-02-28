@@ -5,7 +5,7 @@ $widthFirstItem:600px;
 .portfolio{
     position: relative;
     height:450px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .portfolio__drag{
     height: 100%;
@@ -25,22 +25,21 @@ $widthFirstItem:600px;
 }
 .portfolio__item--2{
     left: $widthFirstItem;
-    background-image: url('./img/edumat.png');
+    background-image: url('./img/cryptobuffet.png');
 }
 .portfolio__item--3{
     left: $widthFirstItem *2;
-    background-image: url('./img/edumat.png');
+    background-image: url('./img/hotelmenager.png');
 }
 .portfolio__item--4{
     left: $widthFirstItem *3;
-    background-image: url('./img/edumat.png');
+    background-image: url('./img/bookseller.png');
 }
 @media(max-width:600px){
     
     .portfolio{
         position: relative;
         height:225px;
-        overflow: hidden
     }
     .portfolio__item{
         width:80vw;

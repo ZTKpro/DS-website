@@ -2,7 +2,7 @@
 
 .contact{
     height: 100%;
-    padding: 50px;
+    padding: 50px 25%;
     background-color: white;
     @include flexMixin(center,center);
     label{

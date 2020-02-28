@@ -8,6 +8,8 @@ import HomePage from '../components/homePage/homePage.js'
 import Footer from '../components/Footer/Footer.js' 
 
 
+
+
 const IndexPage = () => (
   <div>
     <Helmet>

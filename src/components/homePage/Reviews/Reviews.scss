@@ -11,7 +11,14 @@
         color: white;
         font-size: 20px;
         width: 50%;
+        min-height: 225px;
     }
+}
+.reviews__avatar{
+    height: 111px;
+    width: 111px;
+    border-radius: 50%;
+    border:1px solid gray;
 }
 .reviews__changer{
     height:20px;
@@ -25,11 +32,23 @@
     border-radius: 50%;
 }
 .reviews__changeractive{
+    opacity: 0;
     height: 65%;
     width: 65%;
     background-color: $mainColor;
     border-radius: 50%;
 }
+
+@keyframes opacityChange{
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 @media(max-width:800px){
     .reviews{
         p{width: 85%;}
