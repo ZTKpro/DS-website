@@ -22,9 +22,10 @@ const fadeIn = () =>{
 }
 
 class homePage extends React.Component{
-
-  render() {
+  componentDidMount(){
     window.addEventListener("scroll",fadeIn)
+  }
+  render() {
       return(
         <div>
           <Header />
