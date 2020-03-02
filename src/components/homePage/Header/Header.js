@@ -33,9 +33,11 @@ const cicleFollow = (e) =>{
 
 class Header extends React.Component{
 
+    componentDidMount(){
+        cicleFollow()          
+    }
 
     render() {
-        cicleFollow()          
         
         return(
             <header className="header">
