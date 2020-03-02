@@ -80,6 +80,26 @@
     }
     .footer__contact{
         margin-right: 50px;
+        h4{
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+        a{
+            p{
+                margin-top: 12px;
+            }
+        }
+    }
+}
+.footer__blog{
+    h4{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    div{
+        p{
+            margin-top: 12px;
+        }
     }
 }
 

@@ -44,27 +44,21 @@ class Footer extends React.Component{
                             <div className="footer__rightside footer__side">
                                     <div className="footer__contact">
                                         <h4>Contact</h4>
-                                        <a target="_blank" href="https://m.me/DSwebsite">
-                                            <img></img>
+                                        <a target="_blank" href="https://m.me/DSwebsite" rel="noopener noreferrer">
                                             <p>m.me/DSwebsite</p>
                                         </a>
-                                            <img></img>
-                                        <a target="_blank" href="https://www.linkedin.com/company/64502974/">
+                                        <a target="_blank" href="https://www.linkedin.com/company/64502974/" rel="noopener noreferrer">
                                             <p>www.linkedin.com/company/64502974/</p>
                                         </a>
-                                        <a href="contact@dswebsite.pl">
-                                            <img></img>
+                                        <a href="mailto:contact@dswebsite.pl" rel="noopener noreferrer">
                                             <p>contact@dswebsite.pl</p>
                                         </a>
                                     </div>
                                     <div className="footer__blog">
                                         <h4>Recent Posts</h4>
                                         <div>
-                                            <img></img>
                                             <p>How to boosting yours fanpage</p>
-                                            <img></img>
                                             <p>How to boosting yours fanpage</p>
-                                            <img></img>
                                             <p>How to boosting yours fanpage</p>
                                         </div>
                                     </div>

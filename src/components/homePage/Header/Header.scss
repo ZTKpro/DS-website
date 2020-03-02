@@ -59,21 +59,29 @@ $height__cirle--4:32vw;
     transform: translate(-50%,-50%) rotate(45deg);
     animation: anim-1  $timeAnimation  infinite linear;
     transition: .6s;
+    left: -2.556vw;
+    bottom:  -74vh;
 }
 .header__circle--2{
     transform: translate(-50%,-50%);
     animation: anim-2  $timeAnimation  infinite linear;
     transition: .3s;
+    left: 21vw;
+    bottom: 28vh;
 }
 .header__circle--3{
     transform: translate(-50%,-50%);
     animation: anim-3 $timeAnimation   infinite linear;
     transition: 1s;
+    left: 70vw;
+    bottom: -38vh;
 }
 .header__circle--4{
     transform: translate(-50%,-50%);
     animation: anim-4 $timeAnimation   infinite linear;
     transition: 1s;
+    left: 100vw;
+    bottom: -34vh;
 }
 
 @keyframes  anim-1 {
