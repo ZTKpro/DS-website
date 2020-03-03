@@ -28,7 +28,7 @@ class Contact extends React.Component{
 
                             <div data-netlify-recaptcha="true"></div> */}
 
-                            <button type="submit" className="contact__btn g-btn"><p>Send</p></button>
+                            <button className="contact__btn g-btn"><p>Send</p></button>
 
                         </form>
 
