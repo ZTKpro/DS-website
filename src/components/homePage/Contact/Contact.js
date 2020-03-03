@@ -12,8 +12,8 @@ class Contact extends React.Component{
 
                         <h2>Contact us</h2>
 
-                        
-                        <form name="contact" method="POST" data-netlify="true">
+
+                        <form name="contact-netlify" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
