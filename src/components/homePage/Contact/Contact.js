@@ -10,7 +10,7 @@ class Contact extends React.Component{
             <section id="Contact" className="contact fadeIn">
                     <div className="contact__box">
                         <h2>Contact us</h2>
-                        <form action="POST" data-netlify="true">                       
+                        <form name="contact" method="POST" data-netlify="true">                       
                             <label htmlFor="email">
                                 <input id="email" placeholder="Email" className="contact__email" type="email" name="email"/>
                             </label>
