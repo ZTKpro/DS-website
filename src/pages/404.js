@@ -1,7 +1,14 @@
 import React from "react"
+import "../components/404.scss"
 
 const NotFoundPage = () => (
- <div>
+ <div className="error">
+     <div>
+        <h2>Niestety taka strona nie istnieje</h2>
+        <a href="/"><div className="g-btn"><p>Return to homepage</p></div></a>
+     </div>
+     <div className="circle-0"></div>
+     <div className="circle-1"></div>
  </div>
 )
 
