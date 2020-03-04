@@ -12,7 +12,7 @@ const fadeIn = () =>{
   const fadeInItem = document.querySelectorAll(".fadeIn")
 
   for(let i = 0;i < fadeInItem.length;i++){
-    if(fadeInItem[i].offsetTop - 600<= window.pageYOffset){
+    if(fadeInItem[i].offsetTop - 1000<= window.pageYOffset){
       fadeInItem[i].style.opacity = "1"
 
     }
