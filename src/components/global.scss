@@ -1,57 +1,60 @@
-$mainColor: #00B9FF;
+$mainColor: #00b9ff;
 $background-color: #000000;
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: 'Poppins', 
-    sans-serif;
-    transition: .3s;
-    
-    // border: 1px solid gray;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+  // border: 1px solid gray;
 }
 
-a{
-    color: white;
-    text-decoration: none;
+body {
+  background-color: #222222;
+  color: white;
 }
 
-:root{
-    font-size: 16px;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-.g-container{
-    width: 85%;
-    margin: 0px auto;
+:root {
+  font-size: 16px;
 }
 
-@mixin flexMixin($justify , $align) {
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
+.g-container {
+  width: 85%;
+  margin: 0px auto;
 }
 
-.g-btn{
-    @include flexMixin(center,center );
-    text-align: center;
-    opacity: .9;
-    cursor: pointer;
-}
-.g-btn:hover{
-    opacity: 1;
+@mixin flexMixin($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
 }
 
-ul{
-    list-style: none;
+.g-btn {
+  @include flexMixin(center, center);
+  text-align: center;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.g-btn:hover {
+  opacity: 1;
 }
 
-a{
-    cursor: pointer;
+ul {
+  list-style: none;
 }
 
-.fadeIn{
-    opacity: 0;
-    transition: 3s;
+a {
+  cursor: pointer;
+}
+
+.fadeIn {
+  opacity: 0;
+  transition: 3s;
 }
