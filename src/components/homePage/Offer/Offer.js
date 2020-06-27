@@ -37,7 +37,7 @@ class Offer extends React.Component {
 
           <div className="offer__item">
             <h4>B2B</h4>
-            <p className="offer__price">6000 zł/netto</p>
+            <p className="offer__price">6500 zł/netto</p>
             <p className="offer__description">
               Brakuje ci rąk w projekcie i poszukujesz kogoś do stałej
               współpracy?
