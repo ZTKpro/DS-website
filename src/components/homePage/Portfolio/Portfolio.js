@@ -24,7 +24,7 @@ class Portfolio extends React.Component{
                     
                     <div className="portfolio__drag">
 
-                        <a href="https://edumat.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--1"></div></a>
+                        <a href="https://github.com/ZTKpro/covid-react-native.netlify.app" target="_blank"><div className="portfolio__item portfolio__item--1"></div></a>
                         <a href="https://cryptobuffett.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--2"></div></a>
                         <a href="https://hotelmenager.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--3"></div></a>
                         <a href="https://bookseller.netlify.com" target="_blank"><div className="portfolio__item portfolio__item--4"></div></a>
