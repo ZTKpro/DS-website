@@ -20,7 +20,7 @@ class Offer extends React.Component {
         <div className="g-container offer__containers">
           <div className="offer__item">
             <h4>Stawka godzinowa</h4>
-            <p className="offer__price">50zł/h</p>
+            <p className="offer__price">65zł/h</p>
             <p className="offer__description">
               Potrzebujesz przyspieszyć budowę aplikacji ale nie chcesz
               zatrudniać programisty na stałe ?
@@ -37,7 +37,7 @@ class Offer extends React.Component {
 
           <div className="offer__item">
             <h4>B2B</h4>
-            <p className="offer__price">6500 zł/netto</p>
+            <p className="offer__price">8500 zł/netto</p>
             <p className="offer__description">
               Brakuje ci rąk w projekcie i poszukujesz kogoś do stałej
               współpracy?

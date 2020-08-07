@@ -3,7 +3,7 @@
   height: 100%;
   padding: 25px 100px 125px;
   h2 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: lighter;
   }
 }
@@ -15,16 +15,17 @@
   margin-top: 50px;
   height: 100%;
   width: 100%;
-  display: grid;
-  grid-template-columns: 35% 35% 35%;
-  grid-template-rows: 50% 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: left;
-  justify-content: space-between;
-  gap: 50px;
 }
 .services__griditem {
   @include flexMixin(left, flex-start);
   flex-direction: column;
+  width: 350px;
+  margin-top: 40px;
+  padding-left: 80px;
   img {
     height: 110px;
     width: auto;
@@ -38,7 +39,7 @@
     font-size: 20px;
     text-align: left;
     opacity: 0.8;
-    width: 50%;
+    width: 80%;
     margin-bottom: 35px;
   }
 }
@@ -47,39 +48,6 @@
   .services__griditem {
     p {
       width: 60%;
-    }
-  }
-}
-@media (max-width: 1200px) {
-  .services {
-    h2 {
-      font-size: 13vw;
-    }
-  }
-  .services {
-    padding: 25px 0px 125px;
-  }
-  .services__grid {
-    display: block;
-  }
-  .services__griditem {
-    @include flexMixin(center, center);
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20vw;
-    img {
-      height: 30vw;
-      width: auto;
-      margin-bottom: 5px;
-    }
-    h4 {
-      font-size: 8vw;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 6vw;
-      width: 100%;
-      text-align: center;
     }
   }
 }
