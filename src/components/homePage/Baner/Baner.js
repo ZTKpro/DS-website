@@ -9,8 +9,8 @@ class Baner extends React.Component {
   render() {
     return (
       <section className="baner fadeIn">
-        <img src={AexolLogo} alt="aexol logo"></img>
         <img src={EdumatLogo} alt="edumat logo"></img>
+        <img src={AexolLogo} alt="aexol logo"></img>
         <img src={CryptoLogo} alt="crypto buffet logo"></img>
       </section>
     )
