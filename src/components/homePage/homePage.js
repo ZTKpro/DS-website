@@ -2,7 +2,6 @@ import React from "react"
 
 import Header from "./Header/Header.js"
 import Services from "./Services/Tech.js"
-import Offer from "./Offer/Offer.js"
 import Portfolio from "./Portfolio/Portfolio.js"
 import Reviews from "./Reviews/Reviews.js"
 import Baner from "./Baner/Baner.js"
@@ -28,7 +27,6 @@ class homePage extends React.Component {
         <Header />
         <main>
           <Services />
-          <Offer />
           <Portfolio />
           <Reviews />
           <Baner />
